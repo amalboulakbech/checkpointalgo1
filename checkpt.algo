@@ -1,0 +1,57 @@
+ALGORITHM checkpoint algo
+VAR
+nbr_espace,nbr_words,nbr,i,j,k:INTEGER;
+ch:STRING;
+c:char;
+
+
+
+
+
+
+    set_declarations
+BEGIN
+
+//character input
+REPEAT
+write ("donner un carctére");
+read (c);
+ch=ch+c;
+UNTIL (c=".");
+//The number of vowels in the sentence.
+nbr:=0;
+for j=0 from 1 to lenght ch ;
+if ch[j]="a" or ch[j]="e" or ch[j]="i" ch[j]="o" ch[j]="u" ch[j]="y";
+nbr :=nbr+1;
+end if 
+end for
+//The number of words in the sentence
+nbr_espace:=0;
+for j=0 from 1 to lenght ch ;
+if ch[i]=" ";
+nbr_espace:=nbr_espace+1;
+nbr_words:=nbr_espace+1;
+end if
+end for
+//The length of the sentence 
+c:=0
+for k:=0 from 1 to lenght ch;
+c:=c+1;
+write("lenght of the sentence")
+end for
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+    set_instructions
+END
